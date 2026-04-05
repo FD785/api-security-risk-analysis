@@ -2,20 +2,20 @@
 
 ## 📌 Overview
 
-This project presents a security assessment of a public API using read-only testing techniques. The analysis identifies common API security risks and demonstrates how vulnerabilities can impact real-world systems.
+This project presents a professional API security assessment conducted on a public REST API using ethical, read-only testing techniques. The goal is to identify common API security risks and demonstrate real-world vulnerability analysis.
 
 ## 🎯 Objective
 
-* Identify API security risks
-* Analyze authentication and access control
-* Evaluate data exposure
-* Provide remediation recommendations
+* Analyze API endpoints and behavior
+* Identify security risks and misconfigurations
+* Evaluate authentication and access control
+* Provide actionable remediation strategies
 
-## 🔍 API Tested
+## 🔍 Target API
 
-Base URL: https://jsonplaceholder.typicode.com
+**Base URL:** https://jsonplaceholder.typicode.com
 
-Endpoints:
+**Endpoints Tested:**
 
 * `/users`
 * `/users/1`
@@ -23,21 +23,22 @@ Endpoints:
 
 ## ⚠️ Key Findings
 
-* No Authentication (High Risk)
-* Excessive Data Exposure (Medium Risk)
-* Lack of Rate Limiting (Medium Risk)
-* Broken Access Control / BOLA (Medium Risk)
+* 🔴 No Authentication (High Risk)
+* 🟠 Excessive Data Exposure (Medium Risk)
+* 🟠 Lack of Rate Limiting (Medium Risk)
+* 🟠 Broken Access Control (BOLA / IDOR)
 
 ## 🛠️ Tools Used
 
-* Postman
+* Postman (API testing)
 * Browser DevTools
 
 ## 📸 Evidence
 
-Screenshots are available in the `/screenshots` folder.
+Screenshots demonstrating the findings are available in the `/screenshots` folder.
 
 ## 📄 Report
+
 
 Full report available here: [Download Report](report.pdf)
 
