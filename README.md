@@ -40,7 +40,7 @@ Screenshots demonstrating the findings are available in the `/screenshots` folde
 ## 📄 Report
 
 
-Full report available here: [Download Report](report.pdf)
+Full report available here: [](report.pdf)
 
 ## ⚖️ Disclaimer
 
